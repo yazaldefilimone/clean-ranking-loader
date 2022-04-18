@@ -1,4 +1,4 @@
-export type RankingStore = {
+export type RankingScore = {
   player: Player;
   score: number;
   matchdate: Date;

@@ -1,5 +1,5 @@
-import { RankingStore } from '@/domain/entities';
+import { RankingScore } from '@/domain/entities';
 
 export interface LastRankingLoader {
-  load: () => Promise<RankingStore[]>;
+  load: () => Promise<RankingScore[]>;
 }
