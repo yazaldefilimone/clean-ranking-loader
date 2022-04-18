@@ -12,5 +12,5 @@ type Player = {
 
 type Hero = {
   name: string;
-  lever: number;
+  level: number;
 };
